@@ -16,7 +16,8 @@ function WeatherPage() {
   const [err, setErr] = useState(null);
 
   // API key is loaded ONLY at build time, never hardcoded
-  const weatherApiKey = process.env.REACT_APP_WEATHER_KEY;
+  const weatherApiKey = 'c8d2c05abce0a5d7f303c425e174d820'
+  //process.env.REACT_APP_WEATHER_KEY;
 
   async function fetchWeatherData(ev) {
     ev.preventDefault();

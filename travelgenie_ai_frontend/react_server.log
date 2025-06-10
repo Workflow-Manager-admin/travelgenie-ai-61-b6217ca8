@@ -7,14 +7,14 @@
 <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
 <i> [webpack-dev-server] Content not from webpack is served from './public' directory
 Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
-asset bundle.js 1.8 MiB [emitted] (name: main)
+asset bundle.js 1.83 MiB [emitted] (name: main)
 asset index.html 1.92 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
 orphan modules 12.8 KiB [orphan] 3 modules
 modules by path ./node_modules/ 1.61 MiB 34 modules
-modules by path ./src/ 14.3 KiB
+modules by path ./src/ 33.9 KiB
   modules by path ./src/*.css 7.49 KiB 4 modules
-  modules by path ./src/pages/*.js 2.29 KiB 4 modules
+  modules by path ./src/pages/*.js 21.9 KiB 4 modules
   modules by path ./src/*.js 4.56 KiB
     ./src/index.js 530 bytes [built] [code generated]
     ./src/App.js 4.04 KiB [built] [code generated]
@@ -22,44 +22,317 @@ modules by path ./.ve/ 15.1 KiB
   modules by path ./.ve/*.js 10.6 KiB 2 modules
   modules by path ./.ve/*.css 2.93 KiB 2 modules
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 2128 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.81 MiB
-  asset bundle.js 1.81 MiB [emitted] (name: main)
-  asset main.67b1c3efe44a27e3906c.hot-update.js 5.42 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.67b1c3efe44a27e3906c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.81 MiB = bundle.js 1.81 MiB main.67b1c3efe44a27e3906c.hot-update.js 5.42 KiB
-cached modules 1.65 MiB [cached] 51 modules
-runtime modules 27.5 KiB 14 modules
-./src/pages/HomePage.js 2.64 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 871 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.82 MiB
-  asset bundle.js 1.81 MiB [emitted] (name: main)
-  asset main.8627e27f350a5104be9c.hot-update.js 10.3 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.8627e27f350a5104be9c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.82 MiB = bundle.js 1.81 MiB main.8627e27f350a5104be9c.hot-update.js 10.3 KiB
-cached modules 1.65 MiB [cached] 51 modules
-runtime modules 27.5 KiB 14 modules
-./src/pages/ItineraryPage.js 6.87 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 213 ms
-assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.83 MiB
-  asset bundle.js 1.82 MiB [emitted] (name: main)
-  asset main.6d4d510ab1734d3be648.hot-update.js 10 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.6d4d510ab1734d3be648.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.83 MiB = bundle.js 1.82 MiB main.6d4d510ab1734d3be648.hot-update.js 10 KiB
-cached modules 1.66 MiB [cached] 51 modules
-runtime modules 27.5 KiB 14 modules
-./src/pages/WeatherPage.js 6.43 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 197 ms
+webpack 5.99.9 compiled successfully in 3353 ms
 assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.84 MiB
   asset bundle.js 1.83 MiB [emitted] (name: main)
-  asset main.f3693ec00268a46ed8b9.hot-update.js 9.21 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.f3693ec00268a46ed8b9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.f3693ec00268a46ed8b9.hot-update.js 9.21 KiB
+  asset main.b6e269c07b0608df954e.hot-update.js 10 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.b6e269c07b0608df954e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.b6e269c07b0608df954e.hot-update.js 10 KiB
 cached modules 1.66 MiB [cached] 51 modules
 runtime modules 27.5 KiB 14 modules
-./src/pages/ChatPage.js 5.95 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1278 ms
+./src/pages/WeatherPage.js 6.43 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 268 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.13285277b4e9f8f8a529.hot-update.js 10 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.13285277b4e9f8f8a529.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.13285277b4e9f8f8a529.hot-update.js 10 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/WeatherPage.js 6.43 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 171 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.046ad6e9617894ab5725.hot-update.js 10 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.046ad6e9617894ab5725.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.046ad6e9617894ab5725.hot-update.js 10 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/WeatherPage.js 6.43 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 313 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.9db60697c819c3a63e75.hot-update.js 10.1 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.9db60697c819c3a63e75.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.9db60697c819c3a63e75.hot-update.js 10.1 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/WeatherPage.js 6.47 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 104 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.83 MiB
+  asset bundle.js 1.82 MiB [emitted] (name: main)
+  asset main.91db587b201bd6917990.hot-update.js 7.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.91db587b201bd6917990.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.83 MiB = bundle.js 1.82 MiB main.91db587b201bd6917990.hot-update.js 7.3 KiB
+cached modules 1.66 MiB [cached] 50 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 4.08 KiB
+  ./src/App.js 4.04 KiB [code generated]
+  ./src/pages/ItineraryPage.js 39 bytes [built] [code generated] [1 error]
+
+ERROR in ./src/pages/ItineraryPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src/pages/ItineraryPage.js: Missing semicolon. (27:73)
+
+  25 |
+  26 |   // Securely load API keys
+> 27 |   const amadeusApiKey = /process.env.REACT_APP_AMADEUS_API_KEY; // Loaded from .env (NOT visible to browser JS console)
+     |                                                                          ^
+  28 |   const amadeusApiSecret = process.env.REACT_APP_AMADEUS_API_SECRET;
+  29 |
+  30 |   // Handler for form field changes
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at JSXParserMixin.semicolon (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:6906:10)
+    at JSXParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13150:10)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12770:23)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12665:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:61)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13216:10)
+    at JSXParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12035:24)
+    at JSXParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12021:10)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13360:12
+    at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12338:14)
+    at JSXParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13359:10)
+    at JSXParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13044:17)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12709:21)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
+    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
+    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:223:11)
+ @ ./src/App.js 5:0-50 92:41-54
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 130 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.82 MiB
+  asset bundle.js 1.82 MiB [emitted] (name: main)
+  asset main.e4fc8865525ef9e8baeb.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset main.e4fc8865525ef9e8baeb.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.82 MiB = bundle.js 1.82 MiB main.e4fc8865525ef9e8baeb.hot-update.js 854 bytes
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/ItineraryPage.js 39 bytes [built] [1 error]
+
+ERROR in ./src/pages/ItineraryPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src/pages/ItineraryPage.js: Unexpected token (28:2)
+
+  26 |   // Securely load API keys
+  27 |   const amadeusApiKey = //process.env.REACT_APP_AMADEUS_API_KEY; // Loaded from .env (NOT visible to browser JS console)
+> 28 |   const amadeusApiSecret = process.env.REACT_APP_AMADEUS_API_SECRET;
+     |   ^
+  29 |
+  30 |   // Handler for form field changes
+  31 |   function handleChange(e) {
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at JSXParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:6629:16)
+    at JSXParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:11378:16)
+    at JSXParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:4776:20)
+    at JSXParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at JSXParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at JSXParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at JSXParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at JSXParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at JSXParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10734:39
+    at JSXParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12356:16)
+    at JSXParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10734:17)
+    at JSXParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13303:91)
+    at JSXParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13149:10)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12770:23)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12665:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:61)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13216:10)
+    at JSXParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12035:24)
+    at JSXParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12021:10)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13360:12
+    at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12338:14)
+    at JSXParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13359:10)
+    at JSXParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13044:17)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12709:21)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
+    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
+    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:223:11)
+ @ ./src/App.js 5:0-50 92:41-54
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 50 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.82 MiB
+  asset bundle.js 1.82 MiB [emitted] (name: main)
+  asset main.becba08b65b54f49bf41.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
+asset main.becba08b65b54f49bf41.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.82 MiB = bundle.js 1.82 MiB main.becba08b65b54f49bf41.hot-update.js 854 bytes
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/ItineraryPage.js 39 bytes [built] [1 error]
+
+ERROR in ./src/pages/ItineraryPage.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src/pages/ItineraryPage.js: Unexpected token (29:2)
+
+  27 |   const amadeusApiKey = 
+  28 |   //process.env.REACT_APP_AMADEUS_API_KEY; // Loaded from .env (NOT visible to browser JS console)
+> 29 |   const amadeusApiSecret = process.env.REACT_APP_AMADEUS_API_SECRET;
+     |   ^
+  30 |
+  31 |   // Handler for form field changes
+  32 |   function handleChange(e) {
+    at constructor (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:363:19)
+    at JSXParserMixin.raise (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:6609:19)
+    at JSXParserMixin.unexpected (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:6629:16)
+    at JSXParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:11378:16)
+    at JSXParserMixin.parseExprAtom (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:4776:20)
+    at JSXParserMixin.parseExprSubscripts (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:11012:23)
+    at JSXParserMixin.parseUpdate (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10997:21)
+    at JSXParserMixin.parseMaybeUnary (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10977:23)
+    at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10830:61)
+    at JSXParserMixin.parseExprOps (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10835:23)
+    at JSXParserMixin.parseMaybeConditional (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10812:23)
+    at JSXParserMixin.parseMaybeAssign (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10765:21)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10734:39
+    at JSXParserMixin.allowInAnd (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12356:16)
+    at JSXParserMixin.parseMaybeAssignAllowIn (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:10734:17)
+    at JSXParserMixin.parseVar (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13303:91)
+    at JSXParserMixin.parseVarStatement (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13149:10)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12770:23)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseStatementListItem (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12665:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:61)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseBlock (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13216:10)
+    at JSXParserMixin.parseFunctionBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12035:24)
+    at JSXParserMixin.parseFunctionBodyAndFinish (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12021:10)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13360:12
+    at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12338:14)
+    at JSXParserMixin.parseFunction (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13359:10)
+    at JSXParserMixin.parseFunctionStatement (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13044:17)
+    at JSXParserMixin.parseStatementContent (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12709:21)
+    at JSXParserMixin.parseStatementLike (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12685:17)
+    at JSXParserMixin.parseModuleItem (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12662:17)
+    at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13235:36)
+    at JSXParserMixin.parseBlockBody (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:13228:10)
+    at JSXParserMixin.parseProgram (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12541:10)
+    at JSXParserMixin.parseTopLevel (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:12531:25)
+    at JSXParserMixin.parse (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:14410:10)
+    at parse (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/parser/lib/index.js:14444:38)
+    at parser (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:261:32)
+    at /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/gensync/index.js:223:11)
+ @ ./src/App.js 5:0-50 92:41-54
+ @ ./src/index.js 5:0-24 11:32-35
+
+webpack 5.99.9 compiled with 1 error in 48 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.ccfb6f4baf5dc7872563.hot-update.js 10.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.ccfb6f4baf5dc7872563.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.ccfb6f4baf5dc7872563.hot-update.js 10.4 KiB
+cached modules 1.66 MiB [cached] 50 modules
+runtime modules 27.5 KiB 14 modules
+javascript modules 10.9 KiB
+  ./src/App.js 4.04 KiB [code generated]
+  ./src/pages/ItineraryPage.js 6.91 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 117 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.285d6c1e13f4a03ff044.hot-update.js 10.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.285d6c1e13f4a03ff044.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.285d6c1e13f4a03ff044.hot-update.js 10.4 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/ItineraryPage.js 6.91 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 69 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.8232ec36a327f7658f7e.hot-update.js 10.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.8232ec36a327f7658f7e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.8232ec36a327f7658f7e.hot-update.js 10.4 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/ItineraryPage.js 6.92 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 73 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.7b9fe95ad823efb0fd5c.hot-update.js 10.1 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.7b9fe95ad823efb0fd5c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.7b9fe95ad823efb0fd5c.hot-update.js 10.1 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/ItineraryPage.js 6.7 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 146 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.dd1a9136470baf6000fa.hot-update.js 10.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.dd1a9136470baf6000fa.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.dd1a9136470baf6000fa.hot-update.js 10.4 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/ItineraryPage.js 6.92 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 114 ms
+assets by status 1.92 KiB [cached] 1 asset
+assets by path *.js 1.84 MiB
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.a0cb6640573795d17251.hot-update.js 10.4 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.a0cb6640573795d17251.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.a0cb6640573795d17251.hot-update.js 10.4 KiB
+cached modules 1.66 MiB [cached] 51 modules
+runtime modules 27.5 KiB 14 modules
+./src/pages/ItineraryPage.js 6.93 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 143 ms

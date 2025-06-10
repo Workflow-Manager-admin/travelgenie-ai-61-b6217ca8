@@ -24,8 +24,10 @@ function ItineraryPage() {
   const [error, setError] = useState(null);
 
   // Securely load API keys
-  const amadeusApiKey = process.env.REACT_APP_AMADEUS_API_KEY; // Loaded from .env (NOT visible to browser JS console)
-  const amadeusApiSecret = process.env.REACT_APP_AMADEUS_API_SECRET;
+  const amadeusApiKey = 'I3Qf2ShydSGU7hDgLDG3IAl3hHO5QJwt'
+  //process.env.REACT_APP_AMADEUS_API_KEY; // Loaded from .env (NOT visible to browser JS console)
+  const amadeusApiSecret ='0FMhmIHl7JHsbFpy' 
+  //process.env.REACT_APP_AMADEUS_API_SECRET;
 
   // Handler for form field changes
   function handleChange(e) {
