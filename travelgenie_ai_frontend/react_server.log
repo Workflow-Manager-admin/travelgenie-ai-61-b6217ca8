@@ -7,373 +7,59 @@
 <i> [webpack-dev-server] On Your Network (IPv4): http://172.17.0.2:3000/
 <i> [webpack-dev-server] Content not from webpack is served from './public' directory
 Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
-asset bundle.js 1.39 MiB [emitted] (name: main)
+asset bundle.js 1.8 MiB [emitted] (name: main)
 asset index.html 1.92 KiB [emitted]
 runtime modules 27.5 KiB 14 modules
-modules by path ./node_modules/ 1.24 MiB 31 modules
-modules by path ./src/ 10.3 KiB
+orphan modules 12.8 KiB [orphan] 3 modules
+modules by path ./node_modules/ 1.61 MiB 34 modules
+modules by path ./src/ 14.3 KiB
   modules by path ./src/*.css 7.49 KiB 4 modules
-  modules by path ./src/*.js 2.76 KiB
+  modules by path ./src/pages/*.js 2.29 KiB 4 modules
+  modules by path ./src/*.js 4.56 KiB
     ./src/index.js 530 bytes [built] [code generated]
-    ./src/App.js 2.25 KiB [built] [code generated]
+    ./src/App.js 4.04 KiB [built] [code generated]
 modules by path ./.ve/ 15.1 KiB
   modules by path ./.ve/*.js 10.6 KiB 2 modules
-  modules by path ./.ve/*.css 2.93 KiB
-    ./.ve/EditorOverlay.css 2.25 KiB [built] [code generated]
-    ./node_modules/css-loader/dist/cjs.js!./.ve/EditorOverlay.css 697 bytes [built] [code generated]
+  modules by path ./.ve/*.css 2.93 KiB 2 modules
   ./.ve/EditorOverlay.jsx 1.58 KiB [built] [code generated]
-webpack 5.99.9 compiled successfully in 1735 ms
+webpack 5.99.9 compiled successfully in 2128 ms
 assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.42 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.190417ef484863a8cf19.hot-update.js 15.9 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.190417ef484863a8cf19.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.42 MiB = bundle.js 1.4 MiB main.190417ef484863a8cf19.hot-update.js 15.9 KiB
-cached modules 1.26 MiB [cached] 41 modules
+assets by path *.js 1.81 MiB
+  asset bundle.js 1.81 MiB [emitted] (name: main)
+  asset main.67b1c3efe44a27e3906c.hot-update.js 5.42 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.67b1c3efe44a27e3906c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.81 MiB = bundle.js 1.81 MiB main.67b1c3efe44a27e3906c.hot-update.js 5.42 KiB
+cached modules 1.65 MiB [cached] 51 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 6.33 KiB
-  ./src/App.js 4.04 KiB [built] [code generated]
-  ./src/pages/HomePage.js 557 bytes [built] [code generated]
-  ./src/pages/ItineraryPage.js 615 bytes [built] [code generated]
-  ./src/pages/WeatherPage.js 597 bytes [built] [code generated]
-  ./src/pages/ChatPage.js 577 bytes [built] [code generated]
-
-ERROR in ./src/App.js 3:0-80
-Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src'
-resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src'
-  Parsed request is a module
-  using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    resolve as module
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src/node_modules doesn't exist or is not a directory
-      looking for modules in /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules
-        single file module
-          using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./node_modules/react-router-dom)
-            no extension
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom doesn't exist
-            .js
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom.js doesn't exist
-            .jsx
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom.jsx doesn't exist
-        /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom doesn't exist
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/node_modules doesn't exist or is not a directory
-      /home/kavia/node_modules doesn't exist or is not a directory
-      /home/node_modules doesn't exist or is not a directory
-      /node_modules doesn't exist or is not a directory
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 211 ms
-assets by status 1.4 MiB [cached] 2 assets
-cached modules 1.27 MiB (javascript) 27.5 KiB (runtime) [cached] 60 modules
-
-LOG from webpack.FileSystemInfo
-<w> Managed item /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)
-+ 13 hidden lines
-
-ERROR in ./src/App.js 3:0-80
-Module not found: Error: Can't resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src'
-resolve 'react-router-dom' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src'
-  Parsed request is a module
-  using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./src)
-    Field 'browser' doesn't contain a valid alias configuration
-    resolve as module
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/src/node_modules doesn't exist or is not a directory
-      looking for modules in /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules
-        single file module
-          using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./node_modules/react-router-dom)
-            no extension
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom is not a file
-            .js
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom.js doesn't exist
-            .jsx
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom.jsx doesn't exist
-        existing directory /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom
-          using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./node_modules/react-router-dom)
-            using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./node_modules/react-router-dom)
-              no extension
-                Field 'browser' doesn't contain a valid alias configuration
-                /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom is not a file
-              .js
-                Field 'browser' doesn't contain a valid alias configuration
-                /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom.js doesn't exist
-              .jsx
-                Field 'browser' doesn't contain a valid alias configuration
-                /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom.jsx doesn't exist
-              as directory
-                existing directory /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom
-                  using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./node_modules/react-router-dom)
-                    using path: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/index
-                      using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./node_modules/react-router-dom/index)
-                        no extension
-                          Field 'browser' doesn't contain a valid alias configuration
-                          /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/index doesn't exist
-                        .js
-                          Field 'browser' doesn't contain a valid alias configuration
-                          /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/index.js doesn't exist
-                        .jsx
-                          Field 'browser' doesn't contain a valid alias configuration
-                          /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/index.jsx doesn't exist
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/node_modules doesn't exist or is not a directory
-      /home/kavia/node_modules doesn't exist or is not a directory
-      /home/node_modules doesn't exist or is not a directory
-      /node_modules doesn't exist or is not a directory
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 1 error in 56 ms
+./src/pages/HomePage.js 2.64 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 871 ms
 assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 1.41 MiB
-  asset bundle.js 1.4 MiB [emitted] (name: main)
-  asset main.ffe20304fd840b519133.hot-update.js 9.5 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.ffe20304fd840b519133.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.41 MiB = bundle.js 1.4 MiB main.ffe20304fd840b519133.hot-update.js 9.5 KiB
-cached modules 1.26 MiB [cached] 45 modules
+assets by path *.js 1.82 MiB
+  asset bundle.js 1.81 MiB [emitted] (name: main)
+  asset main.8627e27f350a5104be9c.hot-update.js 10.3 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.8627e27f350a5104be9c.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.82 MiB = bundle.js 1.81 MiB main.8627e27f350a5104be9c.hot-update.js 10.3 KiB
+cached modules 1.65 MiB [cached] 51 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 4.41 KiB
-  ./src/App.js 4.04 KiB [code generated]
-  ./node_modules/react-router-dom/dist/index.mjs 383 bytes [built] [code generated]
-
-WARNING in ./src/App.js 13:27-33
-export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 41:43-47
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 46:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 54:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 62:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 82:39-45
-export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 84:41-46
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 90:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 96:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 102:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./node_modules/react-router-dom/dist/index.mjs 13:0-66
-Module not found: Error: Can't resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/dist'
-resolve 'react-router/dom' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/dist'
-  Parsed request is a module
-  using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/package.json (relative path: ./dist)
-    Field 'browser' doesn't contain a valid alias configuration
-    resolve as module
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/dist/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/node_modules doesn't exist or is not a directory
-      looking for modules in /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules
-        existing directory /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router
-          using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/package.json (relative path: .)
-            using exports field: ./dist/development/dom-export.mjs
-              using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/package.json (relative path: ./dist/development/dom-export.mjs)
-                Field 'browser' doesn't contain a valid alias configuration
-                /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/dist/development/dom-export.mjs doesn't exist
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/node_modules doesn't exist or is not a directory
-      /home/kavia/node_modules doesn't exist or is not a directory
-      /home/node_modules doesn't exist or is not a directory
-      /node_modules doesn't exist or is not a directory
- @ ./src/App.js 3:0-80 13:27-33 41:43-47 46:36-40 54:36-40 62:36-40 82:39-45 84:41-46 90:34-39 96:34-39 102:34-39
- @ ./src/index.js 5:0-24 11:32-35
-
-ERROR in ./node_modules/react-router-dom/dist/index.mjs 14:0-29
-Module not found: Error: Can't resolve 'react-router' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/dist'
-resolve 'react-router' in '/home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/dist'
-  Parsed request is a module
-  using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/package.json (relative path: ./dist)
-    Field 'browser' doesn't contain a valid alias configuration
-    resolve as module
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/dist/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router-dom/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/node_modules doesn't exist or is not a directory
-      looking for modules in /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules
-        single file module
-          using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/package.json (relative path: ./node_modules/react-router)
-            no extension
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router is not a file
-            .js
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router.js doesn't exist
-            .jsx
-              Field 'browser' doesn't contain a valid alias configuration
-              /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router.jsx doesn't exist
-        existing directory /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router
-          using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/package.json (relative path: .)
-            using exports field: ./dist/development/index.mjs
-              using description file: /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/package.json (relative path: ./dist/development/index.mjs)
-                no extension
-                  Field 'browser' doesn't contain a valid alias configuration
-                  /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/dist/development/index.mjs doesn't exist
-                .js
-                  Field 'browser' doesn't contain a valid alias configuration
-                  /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/dist/development/index.mjs.js doesn't exist
-                .jsx
-                  Field 'browser' doesn't contain a valid alias configuration
-                  /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/dist/development/index.mjs.jsx doesn't exist
-                as directory
-                  /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/travelgenie_ai_frontend/node_modules/react-router/dist/development/index.mjs doesn't exist
-      /home/kavia/workspace/code-generation/travelgenie-ai-61-b6217ca8/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/code-generation/node_modules doesn't exist or is not a directory
-      /home/kavia/workspace/node_modules doesn't exist or is not a directory
-      /home/kavia/node_modules doesn't exist or is not a directory
-      /home/node_modules doesn't exist or is not a directory
-      /node_modules doesn't exist or is not a directory
- @ ./src/App.js 3:0-80 13:27-33 41:43-47 46:36-40 54:36-40 62:36-40 82:39-45 84:41-46 90:34-39 96:34-39 102:34-39
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 2 errors and 10 warnings in 79 ms
+./src/pages/ItineraryPage.js 6.87 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 213 ms
 assets by status 1.92 KiB [cached] 1 asset
-assets by path *.js 2.29 MiB
-  asset bundle.js 1.84 MiB [emitted] (name: main)
-  asset main.24794925a5a3b1d68f5e.hot-update.js 454 KiB [emitted] [immutable] [hmr] (name: main)
-asset main.24794925a5a3b1d68f5e.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 2.29 MiB = bundle.js 1.84 MiB main.24794925a5a3b1d68f5e.hot-update.js 454 KiB
-cached modules 1.27 MiB [cached] 46 modules
+assets by path *.js 1.83 MiB
+  asset bundle.js 1.82 MiB [emitted] (name: main)
+  asset main.6d4d510ab1734d3be648.hot-update.js 10 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.6d4d510ab1734d3be648.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.83 MiB = bundle.js 1.82 MiB main.6d4d510ab1734d3be648.hot-update.js 10 KiB
+cached modules 1.66 MiB [cached] 51 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 392 KiB
-  modules by path ./node_modules/react-router/ 385 KiB
-    ./node_modules/react-router/dist/development/dom-export.mjs 6.86 KiB [built] [code generated]
-    ./node_modules/react-router/dist/development/index.mjs 5.61 KiB [built] [code generated]
-    ./node_modules/react-router/dist/development/chunk-NL6KNZEE.mjs 365 KiB [built] [code generated]
-    ./node_modules/react-router/node_modules/cookie/dist/index.js 8.14 KiB [built] [code generated]
-  ./node_modules/react-router-dom/dist/index.mjs 383 bytes [code generated]
-  ./node_modules/set-cookie-parser/lib/set-cookie.js 6.47 KiB [built] [code generated]
-
-WARNING in ./src/App.js 13:27-33
-export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 41:43-47
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 46:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 54:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 62:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 82:39-45
-export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 84:41-46
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 90:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 96:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 102:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 10 warnings in 385 ms
-Injecting EditorRootWrapper import: ../.ve/EditorRootWrapper
+./src/pages/WeatherPage.js 6.43 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 197 ms
+assets by status 1.92 KiB [cached] 1 asset
 assets by path *.js 1.84 MiB
-  asset bundle.js 1.84 MiB [emitted] (name: main)
-  asset main.f021b7b2319645321efc.hot-update.js 854 bytes [emitted] [immutable] [hmr] (name: main)
-asset index.html 1.92 KiB [emitted]
-asset main.f021b7b2319645321efc.hot-update.json 28 bytes [emitted] [immutable] [hmr]
-Entrypoint main 1.84 MiB = bundle.js 1.84 MiB main.f021b7b2319645321efc.hot-update.js 854 bytes
-cached modules 1.63 MiB [cached] 43 modules
+  asset bundle.js 1.83 MiB [emitted] (name: main)
+  asset main.f3693ec00268a46ed8b9.hot-update.js 9.21 KiB [emitted] [immutable] [hmr] (name: main)
+asset main.f3693ec00268a46ed8b9.hot-update.json 28 bytes [emitted] [immutable] [hmr]
+Entrypoint main 1.84 MiB = bundle.js 1.83 MiB main.f3693ec00268a46ed8b9.hot-update.js 9.21 KiB
+cached modules 1.66 MiB [cached] 51 modules
 runtime modules 27.5 KiB 14 modules
-javascript modules 19 KiB
-  modules by path ./src/ 6.85 KiB
-    modules by path ./src/pages/*.js 2.29 KiB
-      ./src/pages/HomePage.js 557 bytes [built]
-      ./src/pages/ItineraryPage.js 615 bytes [built]
-      + 2 modules
-    modules by path ./src/*.js 4.56 KiB
-      ./src/index.js 530 bytes [built]
-      ./src/App.js 4.04 KiB [built]
-  modules by path ./.ve/ 12.2 KiB
-    ./.ve/EditorRootWrapper.js 2.68 KiB [built]
-    ./.ve/EditorOverlay.jsx 1.58 KiB [built]
-    ./.ve/SidePanel.js 7.93 KiB [built]
-
-WARNING in ./src/App.js 13:27-33
-export 'BrowserRouter' (imported as 'Router') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 41:43-47
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 46:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 54:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 62:36-40
-export 'Link' (imported as 'Link') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 82:39-45
-export 'Routes' (imported as 'Routes') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 84:41-46
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 90:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 96:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-WARNING in ./src/App.js 102:34-39
-export 'Route' (imported as 'Route') was not found in 'react-router-dom' (module has no exports)
- @ ./src/index.js 5:0-24 11:32-35
-
-webpack 5.99.9 compiled with 10 warnings in 265 ms
+./src/pages/ChatPage.js 5.95 KiB [built] [code generated]
+webpack 5.99.9 compiled successfully in 1278 ms
